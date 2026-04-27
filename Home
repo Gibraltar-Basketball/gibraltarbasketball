@@ -3,65 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gibraltar Basketball Association</title>
+    <title>Gibraltar Basketball Association - Small Nation. Big Game.</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="Home/styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold text-danger" href="#home">
-                <i class="fas fa-basketball-ball me-2"></i>Gibraltar Basketball
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-basketball-ball me-2 text-danger"></i>
+                <span class="text-white">GIBRALTAR</span> <span class="text-danger">BASKETBALL</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#teams">Teams</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="blog.html">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section">
-        <div class="container">
-            <div class="row align-items-center min-vh-100">
-                <div class="col-lg-6">
-                    <h1 class="display-3 fw-bold text-white mb-4">
-                        Join Gibraltar's Premier Basketball Community
+    <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-8 text-white hero-content">
+                    <h1 class="display-2 fw-bold mb-3">
+                        SMALL NATION.<br>
+                        <span class="text-danger">BIG GAME.</span>
                     </h1>
-                    <p class="lead text-light mb-4">
-                        Develop your skills, compete with passion, and be part of our growing basketball family.
+                    <p class="lead mb-4">
+                        Join the Gibraltar Basketball Association and be part of our growing basketball community.
                     </p>
-                    <a href="register.html" class="btn btn-danger btn-lg me-3">
+                    <a href="register.html" class="btn btn-danger btn-lg me-3 pulse-btn">
                         <i class="fas fa-user-plus me-2"></i>Register Now
                     </a>
-                    <a href="#teams" class="btn btn-outline-light btn-lg">
-                        View Teams
+                    <a href="about.html" class="btn btn-outline-light btn-lg">
+                        Learn More
                     </a>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <i class="fas fa-basketball-ball basketball-icon"></i>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Teams Section -->
-    <section id="teams" class="py-5 bg-light">
+    <!-- About Section -->
+    <section class="py-5 bg-white">
         <div class="container">
-            <h2 class="text-center mb-5">Our Divisions</h2>
-            <div class="row">
-                <div class="col-md-4 mb-4">
-                    <div class="card h-100 shadow">
-                        <div class="card-body text-center">
-                            <i class="fas fa-child text-danger mb-3" style="font-size: 3rem;"></i>
-                            <h5 class="card-title">Youth Division</h5>
-                            <p class="card-text">Ages 8-16. Develop fundamental skills in
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="display-5 fw-bold mb-4">Welcome to GABBA</h2>
+                    <p class="lead text-muted">
+                        The Gibraltar Amateur Basketball Association (GABBA) is dedicated to promoting and developing basketball across Gibraltar.
+                    </p>
+                
